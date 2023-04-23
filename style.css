@@ -1,0 +1,208 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+a,img{
+    cursor: pointer;
+}
+.navigation-bar{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    z-index: 15;
+    position: fixed;
+    background: #fff;
+ 
+}
+.left-navbar img{
+    width: 30px;
+    margin: 2px 7px;
+}
+.main-logo{
+    width: 120px !important;
+}
+.right-navbar img{
+    width: 25px;
+    margin-right: 18px;
+}
+.in-nav-bar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.right-navbar .channel-logo{
+    width: 35px;
+    border-radius: 50%;  
+}
+.middle-navbar{
+    /* border: 1px solid; */
+    width: 35%;
+}
+.middle-navbar img{
+    width: 20px;
+  margin-left: 20px;
+}
+#nav-search{
+    padding: 10px 18px;
+    width: 100%;
+    border-radius: 50px;
+    outline: none;
+    border: 0px solid rgba(128, 128, 128, 0.972); 
+}
+.search-box{
+    border: 1px solid #b7b5b5;
+    width: 100%;
+    border-radius: 50px;
+}
+.search-png{
+    margin-right: 20px;
+}
+.mic{
+    position: relative;
+    left: -30px;
+}
+.right-navbar .search-png{
+    display: none;
+}
+/* nav bar ended */
+/* sidebar  started */
+
+.sidebar{
+    width: 190px;
+    height: 100vh;
+    border: 1px solid gray;
+    position: fixed;
+    top: 50px;
+    /* overflow-y: scroll; */
+    transition: .2s;
+    z-index: 15;
+    background: #ffffff67;
+}
+.sidebar a p{
+    position: relative;
+    margin-top: -23px;
+    left: 35px;
+    /* border: 1px solid; */
+    margin-left: 12px;
+    font-size: 1.1rem;
+}
+
+.sidebar img{
+    width: 28px;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+.sidebar .quick-links{
+    padding: 5px 15px;
+}
+.sidebar h3{
+    color: rgb(45, 45, 45);
+    font-weight: 400;
+    padding: 0px 15px;
+}
+.sidebar .subscribers img{
+width: 28px;
+}
+.sidebar .subscribers{
+    padding: 15px 22px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.sidebar .quick-links  a:nth-child(1){
+    color: red;
+}
+.collapse{
+    width: 5%;
+}
+.collapse a p{
+     display: none;
+     transition: .2s;
+}
+.collapse h3{
+    display: none;
+}
+
+
+/* start main containt */
+.content{
+    width: 100%;
+    padding: 4% 2% 0% 15%;
+    /* border: 1px solid red; */
+    transition: 0.2s;
+}
+.resize-content{
+    padding: 4% 2% 0% 6%;
+}
+.banner{
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+.banner img{
+    width: 100%;
+border-radius: 8px;
+}
+
+.content-list{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    background: #eeeeee;
+    /* gap: 18px; */
+}
+.content-list .video-list{
+    width: 250px;
+    height: auto;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.content-list .thambnails img{
+    width: 100%;
+    border-radius: 5px;
+}
+.video-info{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+   
+}
+.video-info .user-logo img{
+    width: 35px;
+    border-radius: 50%;
+}
+.video-info .titles{
+    margin-left: 12px;
+}
+.video-info .titles a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 1rem;
+}
+.video-info .titles p{
+    color: #515151;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+
+
